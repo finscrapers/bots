@@ -1,0 +1,24 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "bots contains the finscrapers bots",
+  "main": "src/index.js",
+  "author": "Felix Baron",
+  "license": "MIT",
+  "scripts": {
+    "watch": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.7.0"
+  },
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "puppeteer-core": "^1.11.0"
+  }
+}
